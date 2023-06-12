@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-hello-world-e2ln
     spec:
       containers:
-      - image: hello-world:latest
+      - image: quay.io/tnevrlka-test/build-e2e-zgyb-tenant/build-suite-test-application-rzfw/devfile-sample-hello-world-e2ln@sha256:902b538529de0df8649c492c0543b555641ce3adf94ce940bc06a0d29a71c94d
         name: my-nginx
         ports:
         - containerPort: 8080
