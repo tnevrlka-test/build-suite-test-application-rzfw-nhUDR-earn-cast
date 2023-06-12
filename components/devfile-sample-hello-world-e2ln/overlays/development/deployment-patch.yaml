@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-hello-world-e2ln
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/tnevrlka-test/build-e2e-zgyb-tenant/build-suite-test-application-rzfw/devfile-sample-hello-world-e2ln@sha256:902b538529de0df8649c492c0543b555641ce3adf94ce940bc06a0d29a71c94d
+        name: my-nginx
+        resources: {}
+status: {}
